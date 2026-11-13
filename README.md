@@ -20,6 +20,7 @@ Crear y ejecutar un contenedor de Nginx con Docker Compose que muestre una pági
 
 ```
 practica6-nginx-docker/
+├── capturas/             # Evidencias de la ejecución
 ├── src/
 │   └── index.html        # Página que muestra Nginx
 ├── docker-compose.yml    # Configuración del servicio
@@ -72,6 +73,16 @@ http://localhost:8080
 ### 4. Repositorio en GitHub
 
 El proyecto se subió a este repositorio público para su entrega.
+
+## Resultado
+
+Contenedor levantado y en ejecución con `docker compose up -d` y `docker ps`:
+
+![Contenedor en ejecución](capturas/docker-ps.png)
+
+Página servida por Nginx en `http://localhost:8080`:
+
+![Hola Mundo en el navegador](capturas/hola-mundo.jpg)
 
 ## Cómo ejecutarlo
 
